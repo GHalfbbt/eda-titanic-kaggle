@@ -5,6 +5,9 @@ Este repositorio contiene un ejemplo de **Análisis Exploratorio de Datos (EDA)*
 
 Se busca también la práctica de cargado y limpieza de datos, estadísticas descriptivas y visualización con Python, pandas, matplotlib y seaborn, además de el flujo de trabajo con uv y JupyterLab. No está orientado a producción; los resultados son demostrativos y con fines estrictamente educativos.
 
+**Dentro del código de esta guía, se pueden ver algunas de las herramientas estadísticas usadas en este código con fines académicos.**
+**En Internet exiaten muchos ejemplos de este dataset tan conocido (recordamos que en nuestro caso lo hemos descargado de Kaggle cumpliendo con sus requisitos).**
+
 ---
 
 # Introducción al EDA
@@ -231,6 +234,10 @@ git push -u origin main
 
 # Notebook - EDA del Titanic con datos de Kaggle
 
+**Dentro del código se pueden ver algunas de las herramientas estadísticas usadas en este código con fines académicos**
+**En Internet hay muchos ejemplos de este dataset tan conocido (recordamos que en nuestro caso lo hemos descargado de Kaggle**
+
+---
 ## Configuración inicial: Imports y ajustes
 ### Celda 1 — Imports y ajustes:
 **Utilidades (guardar imágenes/tablas; no toca README)**

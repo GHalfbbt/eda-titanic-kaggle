@@ -231,15 +231,15 @@ git push -u origin main
 
 # Notebook - EDA del Titanic con datos de Kaggle
 
-# Configuración inicial: Imports y ajustes
-## Celda 1 — Imports y ajustes:
-### Utilidades (guardar imágenes/tablas; no toca README)
+## Configuración inicial: Imports y ajustes
+### Celda 1 — Imports y ajustes:
+**Utilidades (guardar imágenes/tablas; no toca README)**
 
 ---
 
 # FASE 1 Exploración incial. Reconocimiento del Dataset: 
-## Celda 2 — cargar Kaggle CSV (normalizamos nombres)
-### Carga 891 pasajeros, 15 características Identifica tipos: numéricos vs categóricos vs texto
+### Celda 2 — cargar Kaggle CSV (normalizamos nombres)
+**Carga 891 pasajeros, 15 características Identifica tipos: numéricos vs categóricos vs texto**
 
 **Tablas:**
 ![Head](figures/tbl_head_raw.png)
@@ -256,8 +256,8 @@ git push -u origin main
 ---
 
 # FASE 2 Evaluación de la calidad: 
-## Celda 3 — Inspección y diagnóstico:
-### Detecta: age (177 nulos), cabin (687 nulos), embarked (2 nulos) Estadísticas: 38% supervivencia, edades 0.42-80 años, tarifas 0-512£
+### Celda 3 — Inspección y diagnóstico:
+**Detecta: age (177 nulos), cabin (687 nulos), embarked (2 nulos) Estadísticas: 38% supervivencia, edades 0.42-80 años, tarifas 0-512£**
 
 **Qué es:** Vista general (nulos, estadística numérica y categórica, cardinalidad).  
 **Qué muestra:** Columnas con más nulos; orden de magnitudes y dispersión; niveles de categóricas.  
@@ -274,8 +274,8 @@ git push -u origin main
 ---
 
 # FASE 3 Limpieza (Celda 4 a Celda 6)
-## Celda 4 — limpieza (duplicados, imputación, feature)
-### Imputa age con mediana (más robusta que media) Imputa embarked con moda Crea family_size = siblings + parents + 1
+### Celda 4 — limpieza (duplicados, imputación, feature)
+**Imputa age con mediana (más robusta que media) Imputa embarked con moda Crea family_size = siblings + parents + 1**
 
 **Qué es:** Resultados tras limpiar duplicados, imputar y crear `family_size`.  
 **Qué muestra:** Estado del dataset después de imputación; nulos restantes (si los hay).  
@@ -286,7 +286,7 @@ git push -u origin main
 ![Nulos post](figures/tbl_nulls_post.png)
 
 
-## Celda 5: Análisis Univariado (hist edad + conteos survived) 
+### Celda 5: Análisis Univariado (hist edad + conteos survived) 
 
 **Qué es:** Histograma de `age` y barras de `survived` (con tabla de conteo).  
 **Qué muestra:** Forma de la distribución de edades; balance de clases (0/1).  
@@ -355,6 +355,7 @@ git push -u origin main
 
 ![Box fare](figures/plot_box_fare.png)
 
+
 #### plot_box_age.png y plot_box_fare.png
 ```bash
 **Qué son:** Boxplots para detección de outliers
@@ -377,7 +378,8 @@ git push -u origin main
 
 ---
 
-# FASE 5 Conclusiones y preparación: (Celda 9: exportar CSVs limpios)
+# FASE 5 Conclusiones y preparación: 
+### Celda 9: Exportar CSVs limpios
 
 El análisis exploratorio de datos (EDA) proporciona una comprensión profunda de las características de los datos y sus relaciones. Al final de este proceso, es fundamental sintetizar los hallazgos, identificar problemas y formular recomendaciones para los siguientes pasos en el análisis o en la construcción de modelos.
 

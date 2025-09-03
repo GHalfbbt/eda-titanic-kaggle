@@ -1,5 +1,6 @@
 
-# EDA Titanic (Kaggle) — Guía de uso (Windows 10 + Git Bash + uv)
+# EDA Titanic (Kaggle) 
+### Guía de uso (Windows 10 + Git Bash + uv)
 
 Este repositorio contiene un ejemplo de **Análisis Exploratorio de Datos (EDA)** del clásico dataset **Titanic** (Kaggle), pensado para principiantes. La guía explica cómo instalar dependencias con **uv**, descargar los datos de **Kaggle**, abrir el proyecto en **JupyterLab** y ejecutar el notebook paso a paso.
 
